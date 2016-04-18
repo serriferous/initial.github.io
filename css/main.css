@@ -1,7 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 
 #navBar{
-   width: 80%;
+   width: 100%;
    height: 80px;
    border: 1 px solid;
    margin: 0px auto;
@@ -9,9 +9,9 @@
 }
  
 body{ 
-  padding: 10px;
-  width: 80%;
-  margin: 30px;
+  padding: 30px;
+  width: 100%;
+  margin: 0px;
 }
 
 nav ul, footer ul {
