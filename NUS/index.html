@@ -4,5 +4,5 @@ layout: default
 
 Category list
 {% for category in site.categories %}
-    <div class="categories-title"><a href="/tags/#{{ category | first }}">{{ category | first }}</a></div>   
+    <div class="categories-title"><a href="/{{ category | first }}">{{ category | first }}</a></div>   
 {% endfor %}
