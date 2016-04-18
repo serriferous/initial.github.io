@@ -2,11 +2,4 @@
 layout: default
 ---
 
-{% comment %}
-=======================
-The purpose of this snippet is to list all the tags you have in your site.
-=======================
-{% endcomment %}
-{% for categories in categories %}
-    <a href="#{{ category | slugify }}"> {{ categories }} </a>
-{% endfor %}
+<h3>Categories</h3> <p> <ul> {% get_blog_categories as categories %} {% for c in categories %} <li><a href="{% url category_list %}{{ c.slug }}/" title="View posts in this category">{{ c.name }}</a></li> {% endfor %} </ul> </p>
