@@ -2,4 +2,6 @@
 layout: default
 ---
 
-<h3>Categories</h3> <p> <ul> {% get_blog_categories as categories %} {% for c in categories %} <li><a href="{% url category_list %}{{ c.slug }}/" title="View posts in this category">{{ c.name }}</a></li> {% endfor %} </ul> </p>
+{% for category in site.categories %}
+    <div class="categories-title"><a href="/tags/#{{ category | first }}">{{ category | first }}</a></div>   
+{% endfor %}
