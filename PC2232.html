@@ -3,7 +3,7 @@ layout: default
 title: PC2232
 ---
 	<h1>{{ page.title }}</h1>
-testing
+
 	  {% for PC2232 in site.categories.PC2232 %}
 	    <li><span>{{ PC2232.date | date_to_string }}</span> » <a href="{{ PC2232.url }}" title="{{ PC2232.title }}">{{ PC2232.title }}</a></li>
 	  {% endfor %}
