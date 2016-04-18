@@ -3,7 +3,11 @@
 body {
     margin: 60px auto;
     width: 70%;
+    
 }
+
+div.content { width: 1000px }
+
 nav ul, footer ul {
     font-family:"Lato", Arial;
     padding: 0px;
