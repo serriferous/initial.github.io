@@ -1,11 +1,14 @@
 ---
 layout: default
-title: All Posts
 ---
-	<h1>{{ page.title }}</h1>
-	<ul>
 
-	  {% for post in site.posts %}
-	    <h3><li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li></h3>
-	  {% endfor %}
-	</ul>
+<h1>All Posts</h1>
+<p></p>
+
+<ul>
+
+{% for post in site.posts %}
+    <h3><li>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li></h3>   
+{% endfor %}
+</ul>
+
