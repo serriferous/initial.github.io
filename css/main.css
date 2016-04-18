@@ -55,6 +55,12 @@ h4 {
     width: 90% 
 }
 
+h5 {
+   font-size: 1.2em;
+    font-family:"Lato", Arial;
+    width: 90% 
+}
+
 p {
     font-size: 1em;
     line-height: 1.4em;
