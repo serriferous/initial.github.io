@@ -13,9 +13,6 @@ body{
   padding:20px;
 }
 
-div.content { width: 80% }
-
-
 nav ul, footer ul {
     font-family:"Lato", Arial;
     padding: 0px;
@@ -61,7 +58,7 @@ footer {
 }
 
 ul.posts { 
-    margin: 20px auto 40px; 
+    margin: 80%; 
     font-size: 1.5em;
     font-family:"Lato", Arial;
 }
