@@ -57,6 +57,8 @@ footer {
     font-family:"Lato", Arial;
 }
 
+div.post { width: 60px }
+
 ul.posts { 
     margin: 80%; 
     font-size: 1.5em;
