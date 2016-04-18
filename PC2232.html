@@ -1,14 +1,11 @@
 ---
 layout: default
+title: PC2232
 ---
+	<h1>{{ page.title }}</h1>
+	<ul class="PC2232">
 
-<h1>PC2232</h1>
-
-<ul>
-  {% for PC2232 in site.categories.PC2232 %}
-    <li>
-      <a href="">{{PC2232.title}}</a>
-      <p>{{PC2232.meta}}</p>
-    </li>
-  {% endfor %}
-</ul>
+	  {% for PC2232 in site.categories.PC2232 %}
+	    <li><span>{{ PC2232.date | date_to_string }}</span> » <a href="{{ PC2232.url }}" title="{{ PC2232.title }}">{{ PC2232.title }}</a></li>
+	  {% endfor %}
+	</ul>
