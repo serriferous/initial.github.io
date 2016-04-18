@@ -2,6 +2,11 @@
 layout: default
 ---
 
-		        	<li><a href="/PC2232.html">PC2232</a></li>
-	        		<li><a href="/NUS">NUS</a></li>
-	        		<li><a href="/blog">Blog</a></li>
+{% comment %}
+=======================
+The purpose of this snippet is to list all the tags you have in your site.
+=======================
+{% endcomment %}
+{% for categories in categories %}
+    <a href="#{{ category | slugify }}"> {{ categories }} </a>
+{% endfor %}
