@@ -49,6 +49,12 @@ h3 {
     width: 90% 
 }
 
+h4 {
+   font-size: 2em;
+    font-family:"Lato", Arial;
+    width: 90% 
+}
+
 p {
     font-size: 1em;
     line-height: 1.4em;
