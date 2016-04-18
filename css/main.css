@@ -1,12 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
 
 body {
-    margin: 60px auto;
+    margin: 0px auto;
     width: 70%;
     
 }
-
-div.content { width: 1000px }
 
 nav ul, footer ul {
     font-family:"Lato", Arial;
