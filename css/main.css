@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    font-size: 1.3em;
+    font-size: 1em;
     font-family:"Lato", Arial;
 }
 
@@ -35,15 +35,18 @@ p {
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
+    font-family:"Lato", Arial;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
+    font-family:"Lato", Arial;
 }
 
 ul.posts { 
     margin: 20px auto 40px; 
     font-size: 1.5em;
+    font-family:"Lato", Arial;
 }
 
 ul.posts li {
