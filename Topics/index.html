@@ -4,6 +4,9 @@ layout: default
 
 <h1>Topics</h1>
 <p></p>
+<ul>
 {% for category in site.categories %}
-    <h2></h2><div class="categories-title"><a href="/{{ category | first }}">{{ category | first }}</a></div></h2>   
+    <h2><li><div class="categories-title"><a href="/{{ category | first }}">{{ category | first }}</a></div></li></h2>   
 {% endfor %}
+</ul>
+
