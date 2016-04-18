@@ -9,9 +9,11 @@
 }
  
 body{ 
-  position: center;
-  width: 50%;
+  width: 80%;
+  padding:20px;
 }
+
+div.content { width: 80% }
 
 
 nav ul, footer ul {
