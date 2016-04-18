@@ -9,14 +9,10 @@
 }
  
 body{ 
-  padding: auto;
+  position: center;
   width: 80%;
 }
 
-#page-wrap{
-     width: 80%;
-     padding: 20%;
-}
 
 nav ul, footer ul {
     font-family:"Lato", Arial;
