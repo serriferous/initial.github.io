@@ -26,6 +26,7 @@ nav ul li, footer ul li {
 a {
     text-decoration: none;
     color: #999;
+    width: 80%;
 }
 a:hover {
     text-decoration: underline;
@@ -33,16 +34,19 @@ a:hover {
 h1 {
     font-size: 3em;
     font-family:"Lato", Arial;
+    width: 80%;
 }
 
 h2 {
     font-size: 1.5em;
     font-family:"Lato", Arial;
+    width: 80%;
 }
 
 h3 {
     font-size: 1em;
     font-family:"Lato", Arial;
+    width: 80%;
 }
 
 p {
@@ -50,11 +54,13 @@ p {
     line-height: 1.4em;
     color: #333;
     font-family:"Lato", Arial;
+    width: 80%;
 }
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     font-family:"Lato", Arial;
+    width: 80%;
 }
 
 div.post { width: 70% }
