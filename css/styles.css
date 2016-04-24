@@ -52,7 +52,7 @@ h3 { font-size: 1.17em; margin: 1em 0; }
 h4 { font-size: 1em; margin: 1.33em 0; }
 h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
-h7 { font-size: 1.5em; margin: 0.83em 0; }
+h7 { font-size: 1.8em; margin: 0.67em 0; }
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
 abbr[title] { border-bottom: 1px dotted; }
 /* * Addresses style set to `bolder` in Firefox 3+, Safari 4/5, and Chrome. */
@@ -176,7 +176,7 @@ a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-
 a:hover, a:focus { color: #3dc9b3; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 25px; font-size: 14px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
-h7 { font-size: 15px; color: #f3f5f8; text-transform: lowercase; font-weight: bold; }
+h7 { font-size: 18px; color: #f3f5f8; text-transform: lowercase; }
 h2::after { content: " "; border: solid 2px #3dc9b3; display: block; width: 35px; margin: 25px auto; }
 .section-padding { padding: 90px 0 100px }
 .dark-bg { background: #f3f5f8; }
