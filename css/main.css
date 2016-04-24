@@ -1,4 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300);
+@import url(http://fonts.googleapis.com/css?family=Oswald:300);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
+
 
 #navBar{
    width: 100%;
@@ -59,6 +62,18 @@ h5 {
    font-size: 1.2em;
     font-family:"Lato", Arial;
     width: 90% 
+}
+
+h11 {
+   font-size: 1.2em;
+   font-family:"Oswald", Georgia, Serif;
+   width: 90% 
+}
+
+h12 {
+   font-size: 1.2em;
+   font-family:"Yanone Kaffeesatz", Verdana, Arial, Serif;
+   width: 90% 
 }
 
 p {
