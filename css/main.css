@@ -65,15 +65,19 @@ h5 {
 }
 
 h11 {
-   font-size: 1.2em;
+   font-size: 1.1em;
    font-family:"Oswald", Georgia, Serif;
    width: 90% 
+   text-transform: uppercase;
+   /*post title font*/
 }
 
 h12 {
-   font-size: 1.2em;
+   font-size: 1em;
    font-family:"Yanone Kaffeesatz", Verdana, Arial, Serif;
    width: 90% 
+   text-transform: uppercase;
+   /*date font*/
 }
 
 p {
